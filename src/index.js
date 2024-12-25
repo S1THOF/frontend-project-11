@@ -1,6 +1,5 @@
-// @ts-check
+import 'bootstrap';
+import './styles.css';
+import app from './app.js';
 
-import init from './init.js';
-import './style.css';
-
-init();
+app();
